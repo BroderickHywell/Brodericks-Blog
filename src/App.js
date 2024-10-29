@@ -44,11 +44,15 @@ function App() {
             <div className="dropdown">
                 <button className="dropbtn">CONTACT ME</button>
                 <div className="dropdown-content">
-                <a href="https://www.linkedin.com/in/broderickhywell" target="_blank">LINKEDIN</a>
-                <a href="https://github.com/BroderickHywell" target="_blank">GITHUB</a>
+                <a href="https://www.linkedin.com/in/broderickhywell" target="_blank" rel='noreferrer'>LINKEDIN</a>
+                <a href="https://github.com/BroderickHywell" target="_blank" rel='noreferrer'>GITHUB</a>
                 </div>
             </div>
         </header>
+
+        <main className='main-content'>
+          <h1 className='name'>Hey! I'm Broderick</h1>
+        </main>
 
         {/* <!-- FOOTER --> */}
         <footer>
@@ -63,7 +67,7 @@ function App() {
               <span className="loader"><span className="loader-inner"></span></span>
             </div>
         </section>
-          <Home />
+        <Home />
     </div>
   )
 }
